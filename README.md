@@ -3,9 +3,13 @@ Serve precompressed .gz files in Apache2. If the browser does not support gzip c
 
 ## Usage:
 
-* Install apache dev package; on linux:
+* Install the apache dev package; on linux:
 ```
 sudo apt-get install apache2-dev
+```
+* Make sure the mod_deflate module is enabled: 
+```
+ls /etc/apache2/mods-enabled/deflate.load
 ```
 * Compile & install the module:
 ```
