@@ -16,7 +16,7 @@ ls /etc/apache2/mods-enabled/deflate.load
 sudo apxs -cia mod_precompress.c
 ```
 ## Install on Windows
-* Copy the corresponding pre-built 32- or 64- bit library from [win]win to apache/modules
+* Copy the corresponding pre-built 32- or 64- bit library from the [win directory](win) to apache/modules
 * Add the following line in httpd.conf or apache2.conf:
 ```apache
 LoadModule precompress_module modules/mod_precompress.so
