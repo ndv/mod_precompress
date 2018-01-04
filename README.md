@@ -3,7 +3,7 @@ Serve precompressed .gz files in Apache2. If the browser does not support gzip c
 
 ## Install on Linux
 
-* Install the apache dev package; on linux:
+* Install the apache dev package:
 ```
 sudo apt-get install apache2-dev
 ```
